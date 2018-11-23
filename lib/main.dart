@@ -13,6 +13,7 @@ import 'ui/product/product.dart';
 
 void main(){
   runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
     title: "Shopping App",
     home: ShoppingList(
       products: <Product>[
