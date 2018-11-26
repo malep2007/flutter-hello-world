@@ -7,10 +7,10 @@ class MyApp extends StatelessWidget{
       Widget titleSection = Container(
         padding: const EdgeInsets.all(32.0),
         child: Row(
-          children: <Widget>[
+          children: [
             Expanded(child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
-              children: <Widget>[
+              children: [
                 Container(
                   padding: const EdgeInsets.only(bottom: 8.0),
                   child: Text(
@@ -96,7 +96,7 @@ class MyApp extends StatelessWidget{
             title: Text("Top Lakes"),
           ),
           body: ListView(
-            children: <Widget>[
+            children: [
               Image.asset(
                 'images/lake.jpg',
                 width: 600.0,
